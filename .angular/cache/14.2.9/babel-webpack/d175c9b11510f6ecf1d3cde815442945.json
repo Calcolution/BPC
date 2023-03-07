@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class Questionnaire {\n  constructor(answers, isCompleted) {\n    this.answers = [];\n    this.answers = answers;\n    this.isCompleted = isCompleted;\n  }\n\n  addAnswer(answers) {\n    answers.forEach(answer => {\n      this.answers.push(answer);\n    });\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

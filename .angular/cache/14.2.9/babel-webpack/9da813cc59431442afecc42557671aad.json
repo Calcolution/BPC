@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class Profile {\n  constructor(stakeholder, questionnaire, clubs) {\n    this.clubs = [];\n    this.clubs = clubs;\n    this.stakeholder = stakeholder;\n    this.questionnaire = questionnaire;\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

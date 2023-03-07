@@ -1,0 +1,30 @@
+.app_toolbar {
+  width: 100%;
+}
+
+.right {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.fill-space {
+  flex: 1 1 auto;
+}
+
+mat-form-field .mat-form-field {
+  &-underline {
+    position: static;
+  }
+
+  &-subscript-wrapper {
+    position: static;
+  }
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+ }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

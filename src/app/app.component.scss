@@ -1,0 +1,23 @@
+header_toolbar {
+  background-color: white;
+  //min-height: 100px;
+  height: 100px;
+  position: sticky;
+  width: 100%;
+  display: flex;
+}
+
+.body-container {
+  display: flex;
+  height: calc(100% - 100px); // minus header_toolbar
+}
+
+.navigation-container {
+  height: 100%;
+}
+
+.content-container {
+  height: 100%;
+  width: 100%;
+  background: rgb(237,237,230);
+}

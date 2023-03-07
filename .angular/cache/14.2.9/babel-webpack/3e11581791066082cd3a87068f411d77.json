@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { Question } from './question';\nexport class ClubQuestion extends Question {\n  constructor(number, question, optional, category) {\n    super(number, question, category);\n    this.optional = false;\n    this.optional = optional;\n  }\n\n  checkOptional() {\n    this.optional = !this.optional;\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}
